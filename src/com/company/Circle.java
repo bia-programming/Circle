@@ -15,7 +15,7 @@ public class Circle {
     }
 
     public Circle(String color){
-        if(color!="white"){
+        if(color!="white" && color!="White"){
             this.color=color;
         }
     }
@@ -24,7 +24,7 @@ public class Circle {
         if(radious>=0 && radious<=10){
             this.radious=radious;
         }
-        if(color!="white"){
+        if(color!="white" && color!="White"){
             this.color=culoare;
         }
     }
@@ -48,7 +48,7 @@ public class Circle {
     }
 
     public void setColor(String color) {
-        if(color!="white"){
+        if(color!="white" && color!="White"){
             this.color=color;
         }
     }
